@@ -1,0 +1,68 @@
+#root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 24px;
+  width: fit-content;
+  height: fit-content;
+}
+a:hover {
+  transform: scale(2.1);
+  transition: 1s;
+}
+.card {
+  width: 100px;
+  height: 100px;
+  background-color: #f44336;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 1.5s;
+}
+
+.cardRestyle {
+  display: block;
+  border-radius: 30px;
+  width: 400px;
+  height: 400px;
+  transition: 1.5s;
+}
+.imgHolder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.heroImg {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 10px 0px;
+}
+.info {
+  display: none;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.showInfo {
+  display: flex;
+  transition: 4s;
+}
+.sociale {
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sociale a {
+  padding: 0px 30px;
+}
